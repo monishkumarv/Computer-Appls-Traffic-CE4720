@@ -1,0 +1,170 @@
+---
+title: 'CE4720: Assignment 2'
+output:
+  word_document: default
+  html_document:
+    df_print: paged
+editor_options:
+  chunk_output_type: console
+---
+
+
+Question No.: 3
+
+```{r}
+vehicle.count = c(0,1,2,3,4,5)
+highschool = c(30.2,21.8,28.4,13.7,4.4,1.5)
+college = c(47.9,19.4,22.7,8.0,1.5,0.5)
+
+# https://www.rforge.net/doc/packages/FSA/histFromSum.html
+require(FSA)
+histFromSum(highschool~vehicle.count, breaks = seq(0,6,1),
+            xlab='Number of vehicles',
+            ylab = 'People who are high school graduates (%)',
+            ylim = c(0,50))
+
+histFromSum(college~vehicle.count, breaks = seq(0,6,1),
+            xlab='Number of vehicles',
+            ylab = 'People with college degrees (%)',
+            ylim = c(0,50))
+
+```
+
+Question No.: 4
+
+```{r}
+avg.assistant.rating = c(3.3,2.9,4.1,3.3,2.7,3.4,2.8,2.1,3.7,3.2,2.4)
+avg.course.rating = c(3.5,3.2,3.1,3.3,2.8,3.5,3.6,2.8,2.8,3.3,3.3)
+avg.score = c(70,64,47,63,69,69,69,63,53,65,64)
+
+# a)
+plot(avg.assistant.rating,avg.score, xlim = c(0,5), ylim = c(0,100))
+# b)
+plot(avg.assistant.rating,avg.course.rating, xlim = c(0,5), ylim = c(0,5))
+# c)
+plot(avg.course.rating,avg.score, xlim = c(0,5), ylim = c(0,100))
+```
+
+Question No.: 5
+
+```{r}
+# a)
+getwd()
+historic = read.csv('Assignments/2/HW2/historicvmt.csv', header = TRUE)
+
+# b)
+plot.ts(historic$Total, ylab = 'Miles travelled (in millions)')
+
+# c)
+yearly = aggregate(historic$Total, by = list(historic$Year),FUN='sum')
+plot(yearly, xlab = 'Year', ylab = 'Total Miles travelled (in millions)', type='l')
+lines(yearly, xlab = 'Year', ylab = 'Total Miles travelled (in millions)')
+
+monthly = aggregate(historic$Total, by = list(historic$Month),FUN='mean')
+barplot(monthly$x,names.arg = monthly$Group.1,
+        xlab = 'Month', ylab = 'Average Miles travelled (in millions)')
+
+# d)
+gasoline.price = read.table(file="clipboard")
+
+# e)
+m = c(1,1,1,1,1,1,1,1,1,1,1,1,0)
+gasoline.price$month = m
+
+na = 10000000
+
+a = gasoline.price$V1[(gasoline.price$V1 != na) & (gasoline.price$month == 1)]
+b = historic$Total[historic$Year >= 1978] # because 1976 and 1977 are null values
+cor(a,b)
+
+```
+
+Question No.: 6
+
+```{r}
+speed = c(38.4, 34.5, 25.6, 27.9, 30.2, 43, 42.3, 29.9, 41.5, 49.1, 30.2, 39.6, 28.5, 39.1, 40.3, 36.6, 34.9, 21.3, 42.5, 49.7, 37.9, 42.1, 19.5, 45.6, 54.2, 43.92, 43.35, 39.89, 40.86, 34.41, 47.22, 37.41, 44.26, 41.88, 40.57, 41.13, 32.47, 46.50, 41.51, 40.59, 39.40, 39.39, 36.25, 34.42, 41.68, 36.98, 41.06, 40.38)
+
+# custom function for 'mode'
+Mode <- function(x) {
+  ux <- unique(x)
+  ux[which.max(tabulate(match(x, ux)))]
+}
+
+summary(speed)
+Mode(speed)
+var(speed) ** 0.5 # std deviation
+
+hist(speed, xlim = c(0,70))
+quantile(speed,0.85)
+
+set.seed(12345)
+qqplot(speed, rnorm(length(speed)))
+qqline(speed, rnorm(length(speed)))
+
+new.speed = c(40.97, 30.38, 26.82, 47.27,	33.78,	22.05,	25.41,	47.08,	17.75,	15.21, 27.46, 32.67, 9.72, 32.31, 33.84, 40.50, 19.38, 24.90, 49.12, 20.01, 38.61, 40.55, 24.09, 40.41, 30.30, 44.48, 31.21, 37.06, 26.33, 30.36)
+
+quantile(new.speed,0.85)
+
+plot(density(speed, bw=4),main='Before calming measure was introduced ',
+     xlim = c(0,70), ylim = c(0,0.1))
+plot(density(new.speed, bw=4),main='After calming measure was introduced ',
+     xlim = c(0,70), ylim = c(0,0.1))
+
+t.test(x=speed, y=new.speed, alternative = 'greater')
+
+```
+
+Question No.: 7
+
+```{r}
+walking.speeds = read.table('Assignments/2/HW2/Speed.txt', sep = '\t')
+colnames(walking.speeds) = c("speed","age","luggage","gender")
+
+summary(aov(speed ~ age, data = walking.speeds))
+summary(aov(speed ~ luggage, data = walking.speeds))
+summary(aov(speed ~ gender, data = walking.speeds))
+
+summary(aov(speed ~ age * luggage, data = walking.speeds)) # no interaction effect
+summary(aov(speed ~ age * gender, data = walking.speeds))
+summary(aov(speed ~ luggage * gender, data = walking.speeds)) # no interaction effect
+
+summary(aov(speed ~ age *luggage * gender, data = walking.speeds)) # no interaction effect
+```
+
+Question No.: 8
+
+```{r}
+count = c(0,1,2,3,4,5,6,7,8)
+freq = c(2,3,15,18,24,10,6,2,1)
+
+pois.lambda = sum(count*freq) / sum(freq)
+
+qqplot(freq,rpois(length(count),lambda = pois.lambda), ylab = 'rpois (lambda = 3.592593)')
+qqline(freq,rpois(length(count),lambda = pois.lambda))
+
+```
+
+Question No.: 9
+
+```{r}
+df = read.csv('Assignments/2/HW2/hhcomp.csv', header = TRUE)
+attach(df)
+
+# dummy variable
+RATIO.DRVEH = DRVRCNT/HHVEHCNT
+RATIO.DRVEH[is.na(RATIO.DRVEH)] = 0
+RATIO.DRVEH[is.infinite(RATIO.DRVEH)] = 0
+
+
+model = lm(CNTTDHH ~ RATIO.DRVEH + HHSIZE + DRVRCNT + TRAVDAY + HHFAMINC + HHNUMBIK)
+summary(model)
+
+qqplot(model$residuals, rnorm(length(model$residuals)))
+qqline(model$residuals, rnorm(length(model$residuals)))
+
+#shapiro.test(model$residuals)
+ks.test(model$residuals, "pnorm", mean(model$residuals), sd(model$residuals))
+```
+
+
+

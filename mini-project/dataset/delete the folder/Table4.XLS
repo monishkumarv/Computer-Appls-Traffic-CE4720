@@ -1,0 +1,2764 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+<meta name="Generator" content="SAS Software Version 9.4, see www.sas.com">
+<meta http-equiv="Content-type" content="text/html">
+<title>SAS Output</title>
+<style type="text/css">
+<!--
+.activelink
+{
+  color: #800080;
+}
+.aftercaption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  padding-top: 4pt;
+}
+.batch
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: 'SAS Monospace', 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  padding: 7px;
+}
+.beforecaption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.body
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.bodydate
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  text-align: right;
+  vertical-align: top;
+  width: 100%;
+}
+.bycontentfolder
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.byline
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.bylinecontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.caption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.cell
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.container
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.contentfolder
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.contentitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.contentproclabel
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.contentprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.contents
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.contentsdate
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.contenttitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.continued
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  width: 100%;
+}
+.data
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.dataemphasis
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.dataemphasisfixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.dataempty
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.datafixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.datastrong
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.datastrongfixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.date
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.document
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+a:link {
+color:#0000FF
+}
+a:visited {
+color:#800080
+}
+a:active {
+color:#800080
+}
+.errorbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.errorcontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.errorcontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.extendedpage
+{
+  background-color: #FAFBFE;
+  border: 1pt solid #000000;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+}
+.fatalbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.fatalcontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.fatalcontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.folderaction
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.footer
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footeremphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.footeremphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.footerempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.footerstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.frame
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.graph
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.header
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headeremphasis
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.headeremphasisfixed
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.headerempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.headersandfooters
+{
+  background-color: #EDF2F9;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrong
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrongfixed
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.heading1
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading2
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading3
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading4
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading5
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading6
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.index
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.indexaction
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.indexitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.indexprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.indextitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.layoutcontainer
+{
+  border: 0px solid #000000;
+  border-spacing: 30px;
+}
+.layoutregion
+{
+  border: 0px solid #000000;
+  border-spacing: 30px;
+}
+.linecontent
+{
+  background-color: #FAFBFE;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.link
+{
+  color: #0000FF;
+}
+.list
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: disc;
+}
+.list10
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list2
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: circle;
+}
+.list3
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list4
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list5
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list6
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list7
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list8
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list9
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: disc;
+}
+.listitem10
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem2
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: circle;
+}
+.listitem3
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem4
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem5
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem6
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem7
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem8
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem9
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.note
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notebanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.notecontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notecontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.output
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.pageno
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  text-align: right;
+  vertical-align: top;
+}
+.pages
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.pagesdate
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.pagesitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.pagesproclabel
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.pagesprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.pagestitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.paragraph
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.parskip
+{
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.prepage
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+}
+.proctitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.proctitlefixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooter
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooteremphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooteremphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooterempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowfooterstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheader
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderemphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowheaderemphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowheaderempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowheaderstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemfooter
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter10
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter2
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter3
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter4
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter5
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter6
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter7
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter8
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter9
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemtitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle10
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle2
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle3
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle4
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle5
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle6
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle7
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle8
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle9
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systitleandfootercontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.table
+{
+  border-bottom-width: 0px;
+  border-collapse: collapse;
+  border-color: #C1C1C1;
+  border-left-width: 1px;
+  border-right-width: 0px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 1px;
+}
+.top_stacked_value
+{
+  padding-bottom: 1px;
+  border: 0;
+}
+.middle_stacked_value
+{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border: 0;
+}
+.bottom_stacked_value
+{
+  padding-top: 1px;
+  border: 0;
+}
+.titleandnotecontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.titlesandfooters
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.usertext
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.visitedlink
+{
+  color: #800080;
+}
+.warnbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.warncontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.warncontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.l {text-align: left }
+.c {text-align: center }
+.r {text-align: right }
+.d {text-align: right }
+.j {text-align: justify }
+.t {vertical-align: top }
+.m {vertical-align: middle }
+.b {vertical-align: bottom }
+TD, TH {vertical-align: top }
+.stacked_cell{padding: 0 }
+-->
+</style>
+<script language="javascript" type="text/javascript">
+<!-- 
+function startup(){
+
+}
+function shutdown(){
+
+}
+
+//-->
+</script>
+
+<style type="text/css">
+table {
+  mso-displayed-decimal-separator:"\.";
+  mso-displayed-thousand-separator:"\,";
+}
+</style>
+</head>
+<body onload="startup()" onunload="shutdown()" class="body" style=" text-align: center;">
+
+<script language="javascript" type="text/javascript">
+<!-- 
+var _info = navigator.userAgent
+var _ie = (_info.indexOf("MSIE") > 0
+          && _info.indexOf("Win") > 0
+          && _info.indexOf("Windows 3.1") < 0);
+var _ie64 = _info.indexOf("x64") > 0
+
+//-->
+</script>
+
+<div class="branch">
+<a name="IDX"></a>
+<h1 class="systemtitle" style=" text-align: center;">Table 4</h1>
+<h1 class="systemtitle2" style=" text-align: center;">People Killed and Injured, by Person Type and Vehicle Type, 1975-2018</h1>
+<div>
+<div align="center">
+<table class="table" style=" text-align: center;" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Tabulate: Table 1">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr><th class="header" style=" text-align: center; vertical-align: middle;" rowspan="2" colspan="2" scope="colgroup">Injury Severity and Year</th>
+<th class="header" style=" text-align: center;" colspan="6" scope="colgroup">Occupants by Vehicle Type</th>
+<th class="header" style=" text-align: center;" scope="col">Motorcyclists <br/>          </th>
+<th class="header" style=" text-align: center;" colspan="4" scope="colgroup">Nonoccupants             </th>
+<th class="header" style=" text-align: center;" scope="col">Total         <br/>          </th>
+</tr>
+<tr><th class="header" style=" text-align: center;" scope="col">Passenger Cars<br/>          </th>
+<th class="header" style=" text-align: center;" scope="col">Light Trucks  <br/>          </th>
+<th class="header" style=" text-align: center;" scope="col">Large Trucks  <br/>          </th>
+<th class="header" style=" text-align: center;" scope="col">Buses         <br/>          </th>
+<th class="header" style=" text-align: center;" scope="col">Other/Unknown <br/>          </th>
+<th class="header" style=" text-align: center;" scope="col">Total         <br/>          </th>
+<th class="header" style=" text-align: center;" scope="col">Motorcycles   <br/>          </th>
+<th class="header" style=" text-align: center;" scope="col">Pedestrian    <br/>          </th>
+<th class="header" style=" text-align: center;" scope="col">Pedalcyclist  <br/>          </th>
+<th class="header" style=" text-align: center;" scope="col">Other/Unknown Nonoccupant</th>
+<th class="header" style=" text-align: center;" scope="col">Total         <br/>          </th>
+<th class="header" style=" text-align: center;" scope="col">Total         <br/>          </th>
+</tr>
+</thead>
+<tbody>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" rowspan="44" scope="rowgroup">Killed </th>
+<th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1975</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    25,929</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,856</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       961</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        53</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       937</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    32,736</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     3,189</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     7,516</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     1,003</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        81</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     8,600</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    44,525</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1976</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    26,166</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,438</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     1,132</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        73</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       981</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    33,790</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     3,312</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     7,427</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       914</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        80</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     8,421</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    45,523</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1977</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    26,782</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,976</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     1,287</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        42</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       959</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    35,046</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,104</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     7,732</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       922</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        74</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     8,728</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    47,878</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1978</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    28,153</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     6,745</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     1,395</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        41</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       622</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    36,956</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,577</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     7,795</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       892</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       111</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     8,798</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    50,331</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1979</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    27,808</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     7,178</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     1,432</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        39</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       579</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    37,036</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,894</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     8,096</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       932</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       135</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     9,163</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    51,093</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1980</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    27,449</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     7,486</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     1,262</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        46</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       540</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    36,783</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,144</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     8,070</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       965</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       129</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     9,164</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    51,091</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1981</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    26,645</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     7,081</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     1,133</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        56</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       603</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    35,518</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,906</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     7,837</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       936</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       104</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     8,877</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    49,301</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1982</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    23,330</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     6,359</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       944</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        35</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       525</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    31,193</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,453</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     7,331</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       883</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        85</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     8,299</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    43,945</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1983</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    22,979</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     6,202</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       982</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        53</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       362</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    30,578</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,265</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     6,826</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       839</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        81</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     7,746</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    42,589</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1984</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    23,620</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     6,496</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     1,074</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        46</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       440</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    31,676</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,608</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     7,025</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       849</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        99</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     7,973</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    44,257</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1985</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    23,212</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     6,689</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       977</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        57</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       544</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    31,479</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,564</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     6,808</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       890</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        84</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     7,782</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    43,825</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1986</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    24,944</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     7,317</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       926</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        39</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       442</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    33,668</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,566</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     6,779</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       941</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       133</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     7,853</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    46,087</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1987</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    25,132</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     8,058</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       852</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        51</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       436</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    34,529</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,036</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     6,745</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       948</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       132</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     7,825</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    46,390</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1988</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    25,808</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     8,306</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       911</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        54</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       429</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    35,508</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     3,662</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     6,870</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       911</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       136</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     7,917</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    47,087</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1989</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    25,063</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     8,551</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       858</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        50</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       424</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    34,946</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     3,141</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     6,556</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       832</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       107</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     7,495</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    45,582</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1990</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    24,092</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     8,601</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       705</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        32</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       460</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    33,890</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     3,244</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     6,482</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       859</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       124</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     7,465</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    44,599</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1991</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    22,385</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     8,391</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       661</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        31</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       466</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    31,934</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     2,806</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,801</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       843</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       124</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     6,768</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    41,508</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1992</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    21,387</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     8,098</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       585</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        28</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       387</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    30,485</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     2,395</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,549</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       723</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        98</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     6,370</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    39,250</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1993</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    21,566</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     8,511</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       605</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        18</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       425</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    31,125</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     2,449</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,649</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       816</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       111</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     6,576</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    40,150</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1994</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    21,997</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     8,904</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       670</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        18</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       409</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    31,998</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     2,320</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,489</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       802</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       107</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     6,398</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    40,716</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1995</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    22,423</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     9,568</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       648</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        33</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       392</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    33,064</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     2,227</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,584</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       833</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       109</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     6,526</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    41,817</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1996</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    22,505</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     9,932</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       621</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        21</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       455</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    33,534</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     2,161</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,449</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       765</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       154</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     6,368</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    42,065</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1997</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    22,199</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    10,249</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       723</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        18</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       420</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    33,609</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     2,116</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,321</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       814</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       153</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     6,288</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    42,013</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1998</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    21,194</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    10,705</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       742</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        38</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       409</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    33,088</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     2,294</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,228</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       760</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       131</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     6,119</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    41,501</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1999</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    20,862</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    11,265</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       759</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        59</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       447</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    33,392</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     2,483</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,939</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       754</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       149</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,842</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    41,717</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2000</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    20,699</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    11,526</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       754</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        22</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       450</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    33,451</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     2,897</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,763</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       693</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       141</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,597</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    41,945</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2001</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    20,320</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    11,723</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       708</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        34</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       458</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    33,243</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     3,197</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,901</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       732</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       123</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,756</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    42,196</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2002</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    20,569</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    12,274</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       689</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        45</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       528</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    34,105</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     3,270</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,851</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       665</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       114</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,630</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    43,005</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2003</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    19,725</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    12,546</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       726</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        41</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       589</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    33,627</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     3,714</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,774</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       629</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       140</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,543</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    42,884</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2004</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    19,192</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    12,674</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       766</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        42</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       602</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    33,276</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,028</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,675</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       727</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       130</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,532</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    42,836</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2005</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    18,512</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    13,037</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       804</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        58</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       659</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    33,070</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,576</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,892</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       786</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       186</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,864</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    43,510</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2006</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    17,925</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    12,761</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       805</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        27</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       601</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    32,119</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,837</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,795</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       772</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       185</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,752</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    42,708</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2007</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    16,614</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    12,458</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       805</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        36</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       614</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    30,527</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,174</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,699</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       701</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       158</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,558</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    41,259</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2008</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    14,646</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    10,816</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       682</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        67</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       580</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    26,791</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,312</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,414</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       718</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       188</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,320</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    37,423</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2009</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    13,135</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    10,312</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       499</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        26</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       554</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    24,526</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,469</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,109</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       628</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       151</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,888</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    33,883</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2010</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    12,491</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     9,782</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       530</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        44</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       524</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    23,371</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,518</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,302</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       623</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       185</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,110</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    32,999</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2011</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    12,014</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     9,302</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       640</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        55</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       499</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    22,510</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,630</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,457</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       682</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       200</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,339</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    32,479</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2012</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    12,361</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     9,418</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       697</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        39</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       502</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    23,017</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,986</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,818</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       734</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       227</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,779</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    33,782</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2013</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    12,037</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     9,186</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       695</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        54</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       511</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    22,483</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,692</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,779</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       749</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       190</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,718</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    32,893</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2014</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    11,947</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     9,103</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       656</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        44</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       557</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    22,307</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,594</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,910</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       729</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       204</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,843</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    32,744</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2015</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    12,763</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     9,878</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       665</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        49</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       544</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    23,899</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,029</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,494</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       829</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       233</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     6,556</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    35,484</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2016</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    13,508</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    10,279</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       815</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        64</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       610</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    25,276</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,337</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     6,080</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       853</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       260</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     7,193</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    37,806</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2017</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    13,477</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    10,186</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       878</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        43</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       543</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    25,127</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,229</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     6,075</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       806</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       236</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     7,117</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    37,473</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2018</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    12,775</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     9,922</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       885</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">        43</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       596</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    24,221</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,985</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     6,283</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       857</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">       214</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     7,354</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    36,560</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" rowspan="31" scope="rowgroup">Injured</th>
+<th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1988</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,564,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   470,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    36,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    15,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 3,089,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   105,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   110,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    75,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     8,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   192,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 3,386,000</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1989</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,407,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   505,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    40,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    15,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,972,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    83,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   112,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    73,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    11,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   196,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 3,250,000</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1990</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,360,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   499,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    40,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    33,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,935,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    84,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   105,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    75,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     7,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   186,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 3,206,000</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1991</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,217,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   554,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    27,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    21,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,823,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    80,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    88,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    67,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    11,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   166,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 3,069,000</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1992</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,215,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   537,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    32,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    20,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    12,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,817,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    65,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    88,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    63,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    10,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   161,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 3,042,000</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1993</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,251,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   593,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    30,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    17,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,896,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    59,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    94,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    68,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     9,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   170,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 3,126,000</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1994</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,347,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   621,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    29,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    16,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 3,016,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    57,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    92,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    62,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     9,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   164,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 3,237,000</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1995</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,453,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   713,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    29,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    19,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 3,218,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    57,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    85,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    67,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     9,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   161,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 3,437,000</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1996</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,432,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   748,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    31,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    20,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 3,235,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    55,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    81,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    58,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    11,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   150,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 3,440,000</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1997</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,325,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   746,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    30,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    17,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     6,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 3,123,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    52,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    77,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    58,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    11,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   145,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 3,321,000</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1998</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,205,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   765,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    28,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    16,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     4,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 3,019,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    49,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    69,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    53,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     8,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   131,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 3,199,000</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        1999</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,143,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   853,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    34,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    23,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     7,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 3,060,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    50,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    85,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    51,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     3,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   140,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 3,250,000</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2000</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,057,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   886,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    31,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    17,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    10,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 3,001,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    58,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    78,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    51,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     6,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   135,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 3,194,000</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2001</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 1,930,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   866,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    30,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    16,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     9,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,851,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    60,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    78,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    45,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     8,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   131,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 3,042,000</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2002</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 1,811,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   885,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    27,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    19,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     6,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,748,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    65,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    71,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    48,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     7,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   126,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,939,000</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2003</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 1,762,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   896,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    26,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    19,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     7,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,710,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    67,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    70,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    46,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     8,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   125,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,902,000</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2004</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 1,649,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   906,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    28,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    17,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     7,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,607,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    76,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    68,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    41,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     9,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   119,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,802,000</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2005</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 1,580,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   874,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    28,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    12,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    10,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,504,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    88,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    65,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    45,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     8,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   118,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,709,000</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2006</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 1,479,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   860,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    23,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    10,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    11,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,383,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    88,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    61,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    44,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     7,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   112,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,583,000</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2007</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 1,383,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   845,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    23,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    13,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     8,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,272,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   103,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    70,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    43,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    10,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   124,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,499,000</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2008</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 1,308,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   773,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    24,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    16,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     9,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,130,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    96,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    69,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    52,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     9,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   130,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,356,000</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2009</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 1,219,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   762,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    16,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    13,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     7,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,017,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    89,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    59,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    51,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     7,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   117,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,224,000</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2010</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 1,256,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   737,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    20,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    18,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,036,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    82,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    70,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    52,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     8,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   130,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,248,000</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2011</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 1,244,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   733,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    23,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    14,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     6,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,019,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    82,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    69,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    48,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     9,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   126,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,227,000</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2012</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 1,330,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   766,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    25,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    12,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     6,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,140,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    93,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    76,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    49,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    10,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   136,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,369,000</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2013</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 1,299,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   753,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    25,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    24,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,105,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    89,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    66,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    48,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    11,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   125,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,319,000</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2014</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 1,294,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   784,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    27,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    14,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     6,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,125,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    92,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    65,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    50,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    10,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   125,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,343,000</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2015</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 1,382,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   809,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    30,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    12,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     8,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,241,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    89,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    70,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    45,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    10,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   125,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,455,000</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2016</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 1,690,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 1,035,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    36,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    25,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,791,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   104,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    86,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    64,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    16,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   166,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 3,062,000</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2017</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 1,529,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   937,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    40,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    12,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,523,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    89,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    71,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    50,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    12,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   133,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,745,000</td>
+</tr>
+<tr><th class="rowheader" style=" text-align: left; vertical-align: top;" scope="row">        2018</th>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 1,511,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   921,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    39,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    15,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">     5,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,491,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    82,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    75,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    47,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">    15,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;">   137,000</td>
+<td class="data" style=" text-align: right; vertical-align: bottom;"> 2,710,000</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<h1 class="systemfooter" style=" text-align: left;">Sources: FARS 1975-2017 Final, 2018 ARF; NASS GES 1988-2015; CRSS 2016-2018</h1>
+<h1 class="systemfooter2" style=" text-align: left;">Total for 1996 includes 2 fatalities of unknown person type.</h1>
+<h1 class="systemfooter3" style=" text-align: center;">&nbsp;</h1>
+<h1 class="systemfooter4" style=" color: #FF0000; font-weight: bold; text-align: left;">IMPORTANT: The numbers for people injured are not actual counts, but estimates of the actual counts.  The estimates are calculated from data obtained from a nationally representative sample of crashes. NHTSA redesigned the nationally representative sample of police-reported traffic crashes, which estimates the number of police-reported injury and property-damage-only crashes in the US. The new system, CRSS, replaced the NASS GES in 2016 and has a different sample design. Thus, the persons injured estimates for 2016 and later years ARE NOT COMPARABLE with 2015 and earlier years.</h1>
+<h1 class="systemfooter5" style=" text-align: center;">&nbsp;</h1>
+<h1 class="systemfooter6" style=" text-align: right;">National Highway Traffic Safety Administration&#39;s Traffic Safety Facts Annual Report, generated 09/17/2020 at 10:46 AM</h1>
+</div>
+</body>
+</html>

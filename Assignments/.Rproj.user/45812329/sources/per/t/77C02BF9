@@ -1,0 +1,32 @@
+{
+    "id": "77C02BF9",
+    "path": null,
+    "project_path": null,
+    "type": "r_dataframe",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1599124721265.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "expression": "seatbelts",
+        "caption": "seatbelts",
+        "totalObservations": 192,
+        "displayedObservations": 192,
+        "variables": 8,
+        "cacheKey": "7AB1B11E",
+        "object": "seatbelts",
+        "environment": "",
+        "contentUrl": "grid_resource/gridviewer.html?env=&obj=seatbelts&cache_key=7AB1B11E&max_cols=50",
+        "preview": 0
+    },
+    "folds": "",
+    "lastKnownWriteTime": 2201122644538,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1599124721265,
+    "read_only": false,
+    "read_only_alternatives": []
+}

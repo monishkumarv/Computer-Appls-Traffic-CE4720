@@ -1,0 +1,66 @@
+install.packages
+subset
+lm()
+summary(lm_model)
+
+
+CNTTDHH* N 8 No. trav day person trips made by HH H
+-DRVRCNT N 8 Count of drivers in HH H..................................
+HBHRESDN (....) C 9 Housing units per sq mile - Block group H,,,,,,,,,,,,,,,
+-HBHUR (URBRUR) C 2 Urban / Rural indicator - Block group
+HBPPOPDN (HHTOTD) C 9 Population per sq mile - Block group,,,,,,,,,,,,,,,,,,,,
+-HHFAMINC (cont/discr ??) C 2 Total HH income last 12 months
+-HHNUMBIK N 3 Number of full size bicycles in HH.......................
+HHSIZE N 8 Count of HH members.........................................
+HHSTATE C 2 State-household location
+HHVEHCNT N 8 Count of HH vehicles (excluding vehicles).................
+HOMEOWN C 2 Housing unit owned or rented
+HOUSEID C 9 HH Identification Number
+-HTEEMPDN C 9 Jobs per sq mile - Tract level
+HTHRESDN* C 9 Housing units per sq mile - Tract level,,,,,,,,,,,,,,,,,,
+HTPPOPDN* C 9 Population per sq mile - Tract level,,,,,,,,,,,,,,,,,,,,,
+NUMADLT N 8 Number of adults in HH....................................
+RATIO16V* N 8 6.4 Ratio - HH members (16+) to vehicles ################
+RATIO16W* N 8 6.4 Ratio - HH adults (16+) to workers ##################
+-RATIOWV* N 8 6.4 Ratio of HH workers to vehicles #####################
+TELCELL N 3 Number of HH cell phones```````````````````````````````````
+TELLAND N 8 Total number of HH landline phones`````````````````````````
+-TRAVDAY C 1 Travel day - day of week
+WRKCOUNT N 8 Count of HH members with jobs.............................
+
+
+HHFAMINC
+-1=Appropriate Skip
+-7=Refused
+-8=Don't Know 
+-9=Not Ascertained 
+01=< $5,000 
+02=$5,000 - $9,999 
+03=$10,000 - $14,999 
+04=$15,000 - $19,999 
+05=$20,000 - $24,999 
+06=$25,000 - $29,999 
+07=$30,000 - $34,999 
+08=$35,000 - $39,999 
+09=$40,000 - $44,999 
+10=$45,000 - $49,999 
+11=$50,000 - $54,999 
+12=$55,000 - $59,999 
+13=$60,000 - $64,999 
+14=$65,000 - $69,999
+15=$70,000 - $74,999 
+16=$75,000 - $79,999
+17=$80,000 - $99,999
+18=> = $100,000
+
+URBRUR 1 Urban, 2 Rural
+
+HOMEOWN 
+-7=Refused
+-8=Don't Know
+1=Own
+2=Rent
+3=provided by job or military
+91=Other
+
+
